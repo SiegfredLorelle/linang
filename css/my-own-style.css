@@ -11,15 +11,27 @@
   color: #89000d;
 }
 
-#tara-btn {
+/* #tara-btn {
   color: #ffffff;
   background-color: #89000d;
   border-color: #89000d;
 }
 
-#tara-btn:active, #tara-btn:focus {
+#tara-btn:active, #tara-btn:focus, #tara-btn:hover {
   box-shadow:  0 0 0 0.2rem #c3808b;
+} */
+
+
+
+#prompt-box {
+  padding: 30px 25px;
 }
+
+#prompt-box:focus {
+  box-shadow: 0 0 0 0.2rem rgb(236, 244, 255, 50%);
+  
+}
+
 
 
 #course-card {
@@ -44,4 +56,16 @@ align-self: self-end;
   color:#ffffff;
 }
 
+#card-btn, #hanapin-box, #tara-btn {
+  background-color: #fbc304;
+  outline-color: #ecbc04;
+  border-color: #ecbc04;
+}
 
+#card-btn:focus, #card-btn:active, #card-btn:hover,
+#hanapin-box:focus, #hanapin-box:active, #hanapin-box:hover,
+#tara-btn:focus, #tara-btn:active, #tara-btn:hover {
+  outline-color: #ecbc04;
+  border-color: #ecbc04;
+  box-shadow: 0 0 0 0.2rem rgba(236, 188, 4, 50%);
+}
