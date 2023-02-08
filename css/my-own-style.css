@@ -1,26 +1,47 @@
 #topbar {
-    background-color:#89000d;
-  }
-  
-  #title-text {
-    color: #89000d;
-  
-  }
-  
-  #nav-item-text:hover {
-    color: #89000d;
-  }
-  
-  #tara-btn {
-    color: #ffffff;
-    background-color: #89000d;
-    border-color: #89000d;
-  }
-  #tara-btn:active, #tara-btn:focus {
-    box-shadow:  0 0 0 0.2rem #c3808b;
-  };
-
-#image-section {
-  background: linear-gradient(rgba(40, 120, 235, 0.9), #c3808b), url(../img/header.jpg), no-repeat center center;
-  background-size: cover;
+  background-color:#89000d;
 }
+
+#title-text {
+  color: #89000d;
+
+}
+
+#nav-item-text:hover {
+  color: #89000d;
+}
+
+#tara-btn {
+  color: #ffffff;
+  background-color: #89000d;
+  border-color: #89000d;
+}
+#tara-btn:active, #tara-btn:focus {
+  box-shadow:  0 0 0 0.2rem #c3808b;
+}
+
+
+#course-card {
+  max-height: 12rem;
+}
+
+.card-img {
+  opacity: 0.1;
+  max-height: 100%;
+  height: 30%;
+  width: auto;
+  /* align-self:; */
+  /* object-fit: cover; */
+
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+object-fit:scale-down;
+align-self: self-end;
+
+  /* background: linear-gradient(rgba(135, 0, 22, 0.9), rgba(195, 128, 139, 0.9)), */
+
+}
+
+/* #featured-container {
+  max-height: 100%;
+  max-width: 50%;
+} */
