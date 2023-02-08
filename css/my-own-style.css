@@ -12,7 +12,15 @@
   }
   
   #tara-btn {
-    color: #007bff;
+    color: #ffffff;
     background-color: #89000d;
     border-color: #89000d;
   }
+  #tara-btn:active, #tara-btn:focus {
+    box-shadow:  0 0 0 0.2rem #c3808b;
+  };
+
+#image-section {
+  background: linear-gradient(rgba(40, 120, 235, 0.9), #c3808b), url(../img/header.jpg), no-repeat center center;
+  background-size: cover;
+}
