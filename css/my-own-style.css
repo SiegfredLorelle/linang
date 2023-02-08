@@ -53,6 +53,8 @@ align-self: self-end;
 
 #card-btn, #hanapin-box, #tara-btn {
   background-color: #fbc304;
+  outline-color: #fbc304;
+  border-color: #fbc304;
 
 }
 
@@ -61,4 +63,7 @@ align-self: self-end;
 #tara-btn:focus, #tara-btn:active, #tara-btn:hover {
 
   box-shadow: 0 0 0 0.2rem rgba(236, 188, 4, 50%);
+  outline-color: #fbc304;
+  border-color: #fbc304;
+
 }
