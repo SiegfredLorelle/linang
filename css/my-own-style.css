@@ -7,19 +7,14 @@
 
 }
 
+#nav-item-text {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 #nav-item-text:hover {
   color: #89000d;
 }
-
-/* #tara-btn {
-  color: #ffffff;
-  background-color: #89000d;
-  border-color: #89000d;
-}
-
-#tara-btn:active, #tara-btn:focus, #tara-btn:hover {
-  box-shadow:  0 0 0 0.2rem #c3808b;
-} */
 
 
 
@@ -58,14 +53,12 @@ align-self: self-end;
 
 #card-btn, #hanapin-box, #tara-btn {
   background-color: #fbc304;
-  outline-color: #ecbc04;
-  border-color: #ecbc04;
+
 }
 
 #card-btn:focus, #card-btn:active, #card-btn:hover,
 #hanapin-box:focus, #hanapin-box:active, #hanapin-box:hover,
 #tara-btn:focus, #tara-btn:active, #tara-btn:hover {
-  outline-color: #ecbc04;
-  border-color: #ecbc04;
+
   box-shadow: 0 0 0 0.2rem rgba(236, 188, 4, 50%);
 }
