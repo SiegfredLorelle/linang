@@ -1,0 +1,18 @@
+#topbar {
+    background-color:#89000d;
+  }
+  
+  #title-text {
+    color: #89000d;
+  
+  }
+  
+  #nav-item-text:hover {
+    color: #89000d;
+  }
+  
+  #tara-btn {
+    color: #007bff;
+    background-color: #89000d;
+    border-color: #89000d;
+  }
