@@ -67,3 +67,8 @@ align-self: self-end;
   border-color: #fbc304;
 
 }
+
+.dropdown-item:focus, .dropdown-item:active, .dropdown-item:active:hover {
+  background-color: #9f3345;
+  color: white;
+}
