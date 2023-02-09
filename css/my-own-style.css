@@ -27,7 +27,9 @@
   
 }
 
-
+#title-in-header {
+  color: #fbc304;
+}
 
 #course-card {
   max-height: 12rem;
