@@ -16,8 +16,6 @@
   color: #89000d;
 }
 
-
-
 #prompt-box {
   padding: 30px 25px;
 }
@@ -42,10 +40,8 @@
   height: 30%;
   width: auto;
 
-
-object-fit:scale-down;
-align-self: self-end;
-
+  object-fit:scale-down;
+  align-self: self-end;
 }
 
 .card-img-overlay {
@@ -63,7 +59,6 @@ align-self: self-end;
 #card-btn:focus, #card-btn:active, #card-btn:hover,
 #hanapin-box:focus, #hanapin-box:active, #hanapin-box:hover,
 #tara-btn:focus, #tara-btn:active, #tara-btn:hover {
-
   box-shadow: 0 0 0 0.2rem rgba(236, 188, 4, 50%);
   outline-color: #fbc304;
   border-color: #fbc304;
